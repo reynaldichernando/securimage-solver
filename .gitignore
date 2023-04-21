@@ -1,4 +1,3 @@
-securimage-data/
-securimage-data.zip
+securimage-data*
 __pycache__/
 *.ckpt

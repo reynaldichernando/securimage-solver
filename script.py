@@ -23,7 +23,8 @@ def main():
             else:
                 print('error')
 
-    print(correct_predictions/len(filenames))
+    print("Correct Predictions: {}/{}".format(correct_predictions, len(filenames)))
+    print("Accuracy: {:.1%}".format(correct_predictions/len(filenames)))
 
 if __name__ == "__main__":
     main()
